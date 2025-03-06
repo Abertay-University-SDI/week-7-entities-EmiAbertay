@@ -8,10 +8,9 @@ public:
 	Ball();
 	~Ball();
 
-	void update(float dt);
+	void update(float dt) override;
 
 private : 
-
 
 };
 

@@ -20,6 +20,8 @@ private:
 
 	std::vector<Ball> Balls;
 	sf::Vector2f Spawn_Point;
+	sf::Texture Ball_Texture;
+
 
 };
 

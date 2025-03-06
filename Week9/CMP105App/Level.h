@@ -5,7 +5,7 @@
 #include "Framework/Input.h"
 #include <string>
 #include <iostream>
-
+#include "Ball_Manager.h"
 
 class Level : public BaseLevel{
 public:
@@ -14,8 +14,9 @@ public:
 
 	void handleInput(float dt) override;
 	void update(float dt) override;
-	void render();
+	void render(sf::RenderWindow* window);
 
+	Ball_Manager BallManager;
 private:
 	// Default variables for level class.
 	
